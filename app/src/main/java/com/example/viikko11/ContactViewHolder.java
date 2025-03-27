@@ -23,13 +23,12 @@ public class ContactViewHolder extends RecyclerView.ViewHolder {
         contactDetailsButton = itemView.findViewById(R.id.ContactDetailsButton);
         contactDeleteButton = itemView.findViewById(R.id.ContactDeleteButton);
 
-        // Initially hide details
-        contactNumberText.setVisibility(View.GONE);
+
         contactGroupText.setVisibility(View.GONE);
 
         contactDetailsButton.setOnClickListener(v -> {
             detailsVisible = !detailsVisible;
-            contactNumberText.setVisibility(detailsVisible ? View.VISIBLE : View.GONE);
+
             contactGroupText.setVisibility(detailsVisible ? View.VISIBLE : View.GONE);
         });
     }

@@ -45,8 +45,8 @@
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/ListContactsRV"
-        android:layout_width="351dp"
-        android:layout_height="615dp"
+        android:layout_width="396dp"
+        android:layout_height="719dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
